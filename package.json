@@ -1,0 +1,22 @@
+{
+  "name": "eshelper",
+  "version": "1.0.0",
+  "description": "lint es",
+  "main": "gulpfile",
+  "author": "WandersonSantos",
+  "license": "MIT",
+  "scripts": {
+    "checkjs": "gulp checkjs",
+    "watcher": "gulp watch",
+    "default": "gulp"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
+    "gulp-eslint": "^6.0.0",
+    "yarn": "^1.22.17"
+  }
+}
